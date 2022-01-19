@@ -25,8 +25,9 @@ const pricesWithFilter = products.filter(item => typeof item.price === 'number')
 
 const sumByReduce = products.reduce((acc, cur) => {
         if(typeof cur.price === 'number'){
-            acc + cur.price
+            return acc + cur.price
         }
+        return acc
 }, 0)
 
 const first = products.find(product => (/[\s]/g.test(product.price) || product.price.length==0))
