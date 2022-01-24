@@ -9,6 +9,9 @@
       content="Web site created using create-react-app"
     />
     <title>React App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <style>
       * {
         font-size: 16px;
@@ -18,7 +21,7 @@
         background-color: #f9f7f7;
         padding: 50px;
       }
-      .form__content{
+      .form__content {
         background-color: #c2e6f4;
         padding: 40px;
         border-radius: 20px;
@@ -78,6 +81,71 @@
         background-color: #2acfcf;
         color: #fff;
         margin: 5px;
+      }
+      /*Day 6*/
+      .board-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+        grid-gap: 1px;
+        padding: 10px 200px;
+      }
+      .board-item {
+        text-align: center;
+        color: #fff;
+        padding: 20px 0;
+      }
+      .item-red {
+        background-color: #fd5e53;
+      }
+      .item-yellow {
+        background-color: #fddb3a;
+      }
+      .item-green {
+        background-color: #21bf73;
+      }
+      .text-center {
+        text-align: center;
+      }
+      /*Day 7*/
+      .group-container {
+        padding: 10px 200px;
+      }
+      .country {
+        width: 120px;
+        padding: 10px 0;
+        text-transform: uppercase;
+      }
+      .populationbar-container {
+        width: 500px;
+        margin-right: 10px;
+      }
+      .population-number {
+        padding: 10px 0;
+      }
+      .bar-container {
+        display: flex;
+      }
+      .bar-container li {
+        list-style: none;
+      }
+      .population-bar {
+        height: 40px;
+        border-radius: 2px;
+        margin: 0;
+        background-color: #ffa500;
+      }
+      h1, h3 {
+        font-family: 'Roboto', sans-serif;
+      }
+      h1 {
+        font-weight: 700;
+        font-size: 40px;
+      }
+      h3 {
+        font-weight: 300;
+      }
+      .wrapper {
+        margin-top: 100px;
       }
     </style>
   </head>
