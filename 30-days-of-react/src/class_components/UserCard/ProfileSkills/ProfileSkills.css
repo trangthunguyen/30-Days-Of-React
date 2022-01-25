@@ -1,0 +1,16 @@
+.profile__title {
+    text-transform: uppercase;
+}
+.skills__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.skills__item {
+    list-style: none;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #2acfcf;
+    color: #fff;
+    margin: 5px;
+}

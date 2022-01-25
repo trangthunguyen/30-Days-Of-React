@@ -1,0 +1,23 @@
+.board-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 1px;
+    padding: 10px 200px;
+  }
+  .board-item {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+  }
+  .item-red {
+    background-color: #fd5e53;
+  }
+  .item-yellow {
+    background-color: #fddb3a;
+  }
+  .item-green {
+    background-color: #21bf73;
+  }
+  .text-center {
+    text-align: center;
+  }

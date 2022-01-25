@@ -1,0 +1,11 @@
+.form__container {
+    max-width: 100%;
+    background-color: #f9f7f7;
+    padding: 50px;
+  }
+  .form__content {
+    background-color: #c2e6f4;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+  }
