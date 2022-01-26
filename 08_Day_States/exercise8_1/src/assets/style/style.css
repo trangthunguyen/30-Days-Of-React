@@ -1,0 +1,22 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-wrapper {
+    padding: 20px 200px;
+}
+
+.main-wrapper {
+    padding: 50px 200px 100px;
+}
+.user-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.footer-wrapper {
+    padding: 20px 0;
+    text-align: center;
+}
