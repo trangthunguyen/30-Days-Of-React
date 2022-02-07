@@ -16,7 +16,7 @@
 Display the coordinate of the view port when a mouse is moving on the body?
 8. What is the difference between onInput, onChange and onBlur?
 	- onInput: event diễn ra ngay sau khi value của element thay đổi
-	- onChange: event diễn ra khi element mất focus, sau khi nội dung đc thay đổi, có thể dugf với <select>
-	- onBlur: event diễn ra khi element mất focus
+	- onChange: event diễn ra khi element không được focus, sau khi nội dung đc thay đổi, có thể dùng với <select>
+	- onBlur: event diễn ra khi element không được focus
 9. Where do we put the onSubmit event ?
 	- khi thao tác submit với form
