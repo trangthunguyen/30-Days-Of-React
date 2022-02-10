@@ -1,0 +1,15 @@
+.App {
+  margin: 50px 100px;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+small {
+  color: red;
+}
+
+.form-group {
+  margin: 20px 0;
+}
