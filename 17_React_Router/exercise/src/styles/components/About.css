@@ -1,0 +1,9 @@
+.profile__container {
+  height: 500px;
+  background-color: #f1f2f8;
+  padding: 10px;
+}
+.profile__content {
+  background-color: #fff;
+  padding: 20px;
+}
