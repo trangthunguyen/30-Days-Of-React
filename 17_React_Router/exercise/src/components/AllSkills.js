@@ -10,7 +10,7 @@ const AllSkills = () => {
         <ul className="skills__wrapper">
           {skillList.map((item, index) => (
             <li className="skills__item" key={index}>
-              <Link to={`/about/skills/${item.skill}`}>{item.skill}</Link>
+              <Link to={`${item.skill}`}>{item.skill}</Link>
             </li>
           ))}
         </ul>

@@ -1,0 +1,13 @@
+@import "../scss/colors.scss";
+.origin {
+    display: inline-block;
+    margin: 5px 8px;
+    border: 1px solid $color2;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    &:hover {
+        cursor: pointer;
+    }
+}
