@@ -3,7 +3,6 @@ import "../styles/components/CatDetail.scss";
 
 export class CatDetail extends Component {
   render() {
-    console.log(this.props);
     const {
       catDetail: {
         weight: { metric },

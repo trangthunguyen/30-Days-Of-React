@@ -3,11 +3,11 @@ import '../styles/components/Origin.scss'
 
 export class Origin extends Component {
     render() {
-        const {origin, value}=this.props
+        const {origin, value, onClick}=this.props
         return (
-            <div className="origin">
+            <button className="origin" onClick={onClick} name={origin}>
                 {`${origin}(${value})`}
-            </div>
+            </button>
         )
     }
 }
