@@ -1,0 +1,12 @@
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &-item {
+    width: 65%;
+  }
+  &-origin {
+    margin: 40px 0;
+  }
+}

@@ -1,0 +1,30 @@
+@import "../scss/colors.scss";
+.header {
+    background: linear-gradient(90deg,#8e54e9,#4776e6);
+    padding: 20px;
+    text-align: center;
+    p {
+        margin: 20px;
+    }
+    .title {
+        text-transform: uppercase;
+        color:$color1;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700;
+        font-size: 40px;
+        text-shadow: 1px 1px #1d1b1b;
+    }
+    .intro {
+        font-family: 'Merriweather';
+        font-weight: 600;
+        text-shadow: 2px 2px 0 #fff,2px 2px 0 rgba(0,0,0,.15)
+    }
+    .description {
+        font-size: 16px;
+    }
+}
+
+.highlight-number {
+    font-size: 25px;
+    color:$color1;
+}
