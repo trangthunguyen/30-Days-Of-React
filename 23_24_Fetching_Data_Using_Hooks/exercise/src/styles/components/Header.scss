@@ -1,0 +1,16 @@
+@import '../colors/colors.scss';
+
+header {
+    text-align: center;
+    padding: 20px 0 10px;
+    .title {
+        color: $color1;
+        font-size: 55px;
+        font-weight: 700;
+        margin: 0 auto auto;
+    }
+    .description {
+        font-size: 25px;
+        color: $color2;
+    }
+}
