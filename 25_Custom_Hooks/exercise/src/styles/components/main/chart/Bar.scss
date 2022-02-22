@@ -1,0 +1,26 @@
+.bar-container {
+    display: flex;
+    margin-left: 150px;
+    .country {
+        width: 200px;
+        padding: 10px 0;
+        text-align: left;
+    }
+    .populationbar-container {
+        width: 500px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .population-number {
+        padding: 10px 0;
+    }
+    .bar-container li {
+        list-style: none;
+    }
+    .population-bar {
+        height: 25px;
+        border-radius: 2px;
+        margin: 0;
+        background-color: #ffa500;
+    }
+}

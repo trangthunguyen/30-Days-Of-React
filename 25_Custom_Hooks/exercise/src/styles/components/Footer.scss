@@ -1,0 +1,18 @@
+footer {
+    padding: 0 0 10px;
+    text-align: center;
+    .information1 {
+        margin: 0;
+        font-size: 30px;
+        .lesson-link {
+            text-decoration: none;
+        }
+    }
+    .information2 {
+        font-weight: 300;
+        .actor-link {
+            text-decoration: none;
+            color: blue;
+        }
+    }
+}

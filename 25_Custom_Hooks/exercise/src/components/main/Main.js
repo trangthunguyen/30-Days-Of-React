@@ -90,7 +90,7 @@ const Main = (props) => {
 
       <div className="country-box-container">
         {countryList.map((item) => (
-          <CountryBox country={item} key={item.name}/>
+          <CountryBox country={item} key={item.name} />
         ))}
       </div>
       <div className="chart-container">
