@@ -1,0 +1,14 @@
+@import './styles/colors/colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto+Slab:wght@300;400;700&display=swap');
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  align-items: center;
+  .container {
+    width: 39%;
+    border: 1px solid $color3;
+  }
+}

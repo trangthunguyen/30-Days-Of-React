@@ -1,0 +1,39 @@
+@import '../colors/colors.scss';
+
+.form-container {
+    display: flex;
+    margin: 50px 0;
+    .inp-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 20px;
+        & textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: $color2;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            &:hover, &:focus {
+                box-shadow: 1px 1px 3px 2px #92d0f0;;
+            }
+        }
+        & small {
+            color: $color1;
+        }
+    }
+    .btn-wrapper {
+        margin-top: 30px;
+        & button {
+            padding: 10px;
+            background-color: $color1;
+            border: none;
+            border-radius: 5px;
+            color: $white;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

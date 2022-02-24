@@ -1,0 +1,28 @@
+@import '../colors/colors.scss';
+
+.post-container {
+    border: 1px solid $color3;
+    padding: 0 5px;
+    .user-container {
+        margin: 5px 0;
+        & input {
+        }
+        .name {
+            font-weight: 600;
+            margin: 0 5px;
+            font-family: 'Roboto Slab', serif;
+        }
+        .username {
+            color: $color4;
+        }
+    }
+    .content {
+        font-weight: 300;
+    }
+    .time {
+        display: flex;
+        justify-content: end;
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
