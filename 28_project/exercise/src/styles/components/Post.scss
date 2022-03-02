@@ -19,10 +19,18 @@
     .content {
         font-weight: 300;
     }
-    .time {
+    .detail {
         display: flex;
-        justify-content: end;
-        font-size: 13px;
-        font-weight: 400;
+        justify-content: space-between;
+        .option {
+            margin-top: 10px;
+            .icon {
+                margin: 0 5px;
+            }
+        }
+        .time {
+            font-size: 13px;
+            font-weight: 400;
+        }
     }
 }

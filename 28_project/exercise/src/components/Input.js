@@ -1,14 +1,15 @@
 import '../styles/components/Input.scss'
 
-const Input = () => {
+const Input = (props) => {
+    const {onChange, onSubmit, isDisable, value, length} = props
     return (
-        <form className="form-container">
+        <form className="form-container" onSubmit={onSubmit}>
            <div className="inp-wrapper">
-                <textarea placeholder="Tweet about 30 Days Of React" name='post' cols='50' rows='5' />
-                <small>250</small>
+                <textarea value={value} onChange={onChange} placeholder="Tweet about 30 Days Of React" name='post' rows='5' />
+                <small>{length}</small>
            </div>
             <div className='btn-wrapper'>
-                <button>Add Post</button>
+                <button disabled={isDisable}>Add Post</button>
             </div>
         </form>
     )

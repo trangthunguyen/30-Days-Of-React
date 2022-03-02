@@ -1,15 +1,10 @@
 @import '../colors/colors.scss';
 
-.form-container {
+.form-edit-container {
     display: flex;
-    margin: 50px 0;
+    flex-direction: column;
     .inp-wrapper {
-        display: flex;
-        flex-direction: column;
-        margin-right: 20px;
-        width: 80%;
         & textarea {
-            max-width: 100%;
             margin-bottom: 10px;
             padding: 10px;
             background-color: $color2;
@@ -20,14 +15,12 @@
                 box-shadow: 1px 1px 3px 2px #92d0f0;;
             }
         }
-        & small {
-            margin-left: auto;
-            color: $color1;
-        }
     }
     .btn-wrapper {
-        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
         & button {
+            margin: 5px auto 5px 0;
             padding: 10px;
             background-color: $color1;
             border: none;

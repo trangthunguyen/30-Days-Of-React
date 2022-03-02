@@ -1,20 +1,25 @@
+import { FaEdit, FaTrashAlt } from 'react-icons/fa';
 import '../styles/components/Post.scss'
 
-const Post = () => {
+const Post = (props) => {
+  const {name, username, post, time, handleDelete, handleEdit} = props
   return (
     <div className="post-container">
       <div className="user-container">
         <input type="radio" />
-        <span className="name">Asabeneh Yetayeh</span>
-        <small className="username">@Asabeneh</small>
+        <span className="name">{name}</span>
+        <small className="username">@{username}</small>
       </div>
       <p className="content">
-        30 Days Of React challenge has been started on 1 October and still
-        ongoing. It will end the 30 October 2020. It was a real challenge for
-        everyone. Students learned quite a lot of concepts. I hope this will
-        help lots of students.
+        {post}
       </p>
-      <p className="time">Feb 24, 2022 10:08 am</p>
+      <div className='detail'>
+        <div className="option">
+          <FaEdit className='icon' onClick={handleEdit}/>
+          <FaTrashAlt className='icon' onClick={handleDelete}/>
+        </div>
+        <p className="time">{time}</p>
+      </div>
     </div>
   );
 };
